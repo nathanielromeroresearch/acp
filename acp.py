@@ -1,5 +1,3 @@
-
-
 import logging
 import subprocess
 import requests
@@ -191,7 +189,7 @@ def main():
     print(f"{Fore.YELLOW}Facebook Page Creator{Style.RESET_ALL}")
 
     # Define file paths
-    tokens_file = '/sdcard/RFCPTOOLS/pagecreate/tokens/tokens.txt'
+    tokens_file = '/sdcard/RFCPTOOLS/pagecreate/tokens.txt'
     page_file = '/sdcard/RFCPTOOLS/pagecreate/page.txt'
 
     # Function to create a file if it does not exist
